@@ -12,8 +12,7 @@ const About: FC<{
 		<section id="about" className={s.container}>
 			<BlockTitle title="Про компанію"/>
 
-			<SplitBlocks title="Відомості про фінансову установу" titleType="heading"
-			             anchor="reports">
+			<SplitBlocks title="Відомості про фінансову установу" titleType="heading">
 				<p><strong>Повне найменування юридичної особи
 					(небанківської фінансової установи)</strong></p>
 				<p>ТОВАРИСТВО З ОБМЕЖЕНОЮ ВІДПОВІДАЛЬНІСТЮ «СИСТЕМНИЙ ФІНАНСОВИЙ
