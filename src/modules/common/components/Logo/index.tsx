@@ -1,10 +1,10 @@
 import { FC } from 'react';
-import Link from 'next/link';
 import Image from 'next/image';
-
-import s from './Logo.module.scss';
+import Link from 'next/link';
 
 import LOGO from '@public/assets/logo.svg';
+
+import s from './Logo.module.scss';
 
 const Logo: FC = () => {
 	return (

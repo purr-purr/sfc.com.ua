@@ -5,8 +5,10 @@ export const APP_AUTHOR_SIGNATURE: string = 'Today Studio';
 export const APP_AUTHOR_WEBSITE: string = `https://today-studio.ie/`;
 export const APP_AUTHOR_FULL_SIGNATURE: string = `Website Developer: ${APP_AUTHOR} => ${APP_AUTHOR_WEBSITE} => shaposhnikov.web@gmail.com`;
 export const APP_LINK: string = 'https://sfc.com.ua/';
-export const COMPANY_NAME: string[] = ['TOB', '“Cистемний Фінансовий' +
-' Консалтинг”'];
+export const COMPANY_NAME: string[] = [
+	'TOB',
+	'“Cистемний Фінансовий' + ' Консалтинг”',
+];
 export const COMPANY_FULL_NAME: string = `${COMPANY_NAME[0]} ${COMPANY_NAME[1]}`;
 export const COMPANY_CATCHPHRASE: string =
 	'ТОВ "Системний Фінансовий Консалтинг" пропонує комплексні фінансові рішення, адаптовані до ваших потреб.';
