@@ -1,8 +1,8 @@
 @import 'mixins';
 
 :root {
-	--main-bg: #F9F9F9;
-	--primary: #0056B9;
+	--main-bg: #f9f9f9;
+	--primary: #0056b9;
 	--main-text: #323232;
 	--bold-text: #282828;
 	--white: #fff;
@@ -56,7 +56,6 @@ button {
 
 a {
 	scroll-margin-top: 100px;
-	color: var(--bold-text);
 	text-decoration: underline;
 	transition: opacity 0.3s ease-in-out;
 
