@@ -4,9 +4,9 @@ import SplitBlocks from '@modules/common/components/SplitBlocks';
 import {
 	archivedInformation,
 	auditReports,
+	companyDocs,
 	finServiceInfo,
 	infoOwnershipStructure,
-	innerRules,
 	publicInfo,
 } from '@modules/home/components/Reports/data';
 
@@ -17,8 +17,8 @@ const Reports = () => {
 			titleType="heading"
 			anchor="reports"
 		>
-			<Accordion title="Правила і договір про надання фінансових послуг">
-				<DocumentsList list={innerRules} />
+			<Accordion title="Документи фінансової установи">
+				<DocumentsList list={companyDocs} />
 			</Accordion>
 
 			<Accordion title="Публічна та інша інформація">

@@ -1,18 +1,24 @@
 import { importDoc } from '@utils/formatters';
 import { IDocumentsListGroup, type IDocumentsList } from '@utils/types';
 
-export const innerRules: IDocumentsList[] = [
+export const companyDocs: IDocumentsList[] = [
 	{
-		title: '«Витяг з державного реєстру фінансових установ»',
+		title: 'Витяг з державного реєстру фінансових установ',
 		link: importDoc(
 			'витяг_з_державного_реєстру_фінансових_установ_ТОВ_“СИСТЕМНИЙ_ФІНАНСОВИЙ.pdf',
 		),
 	},
 	{
-		title: 'Механізми захисту прав споживачів',
-		link: importDoc(
-			'Mekhanizmy zakhystu prav spozhyvachiv TOV Systemnyi finansovyi konsaltynh.pdf',
-		),
+		title: 'Свідоцтво фінансової установи',
+		link: importDoc('Svidoctvo_SFC.pdf'),
+	},
+	{
+		title: 'Статут',
+		link: importDoc('Statut.pdf'),
+	},
+	{
+		title: 'Виписка',
+		link: importDoc('Vypyska.pdf'),
 	},
 ];
 
@@ -24,6 +30,12 @@ export const publicInfo: IDocumentsList[] = [
 	{
 		title: 'Публічна інформація про компанію',
 		link: importDoc('Publichna informatsiia pro kompaniiu_.pdf'),
+	},
+	{
+		title: 'Механізми захисту прав споживачів',
+		link: importDoc(
+			'Mekhanizmy zakhystu prav spozhyvachiv TOV Systemnyi finansovyi konsaltynh.pdf',
+		),
 	},
 ];
 
